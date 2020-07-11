@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A1906AC2495D91A00E5574D /* oneMinuteArticalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1906AB2495D91A00E5574D /* oneMinuteArticalViewController.swift */; };
+		2A1906B8249E1A6700E5574D /* timeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1906B7249E1A6700E5574D /* timeViewController.swift */; };
 		2AF8FEEF248BA0DF00B674AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF8FEEE248BA0DF00B674AB /* AppDelegate.swift */; };
 		2AF8FEF1248BA0DF00B674AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF8FEF0248BA0DF00B674AB /* SceneDelegate.swift */; };
-		2AF8FEF3248BA0DF00B674AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF8FEF2248BA0DF00B674AB /* ViewController.swift */; };
+		2AF8FEF3248BA0DF00B674AB /* genraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF8FEF2248BA0DF00B674AB /* genraViewController.swift */; };
 		2AF8FEF6248BA0DF00B674AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AF8FEF4248BA0DF00B674AB /* Main.storyboard */; };
 		2AF8FEF8248BA0E100B674AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AF8FEF7248BA0E100B674AB /* Assets.xcassets */; };
 		2AF8FEFB248BA0E100B674AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AF8FEF9248BA0E100B674AB /* LaunchScreen.storyboard */; };
@@ -35,10 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A1906AB2495D91A00E5574D /* oneMinuteArticalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oneMinuteArticalViewController.swift; sourceTree = "<group>"; };
+		2A1906B7249E1A6700E5574D /* timeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timeViewController.swift; sourceTree = "<group>"; };
 		2AF8FEEB248BA0DF00B674AB /* WOOT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WOOT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AF8FEEE248BA0DF00B674AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2AF8FEF0248BA0DF00B674AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2AF8FEF2248BA0DF00B674AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2AF8FEF2248BA0DF00B674AB /* genraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = genraViewController.swift; sourceTree = "<group>"; };
 		2AF8FEF5248BA0DF00B674AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2AF8FEF7248BA0E100B674AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2AF8FEFA248BA0E100B674AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -80,7 +84,6 @@
 			isa = PBXGroup;
 			children = (
 				2AF8FEED248BA0DF00B674AB /* WOOT */,
-				2AF8FF04248BA0E100B674AB /* WOOTTests */,
 				2AF8FF0F248BA0E100B674AB /* WOOTUITests */,
 				2AF8FEEC248BA0DF00B674AB /* Products */,
 			);
@@ -101,11 +104,14 @@
 			children = (
 				2AF8FEEE248BA0DF00B674AB /* AppDelegate.swift */,
 				2AF8FEF0248BA0DF00B674AB /* SceneDelegate.swift */,
-				2AF8FEF2248BA0DF00B674AB /* ViewController.swift */,
-				2AF8FEF4248BA0DF00B674AB /* Main.storyboard */,
+				2AF8FEF2248BA0DF00B674AB /* genraViewController.swift */,
+				2A1906B7249E1A6700E5574D /* timeViewController.swift */,
+				2A1906AB2495D91A00E5574D /* oneMinuteArticalViewController.swift */,
 				2AF8FEF7248BA0E100B674AB /* Assets.xcassets */,
+				2AF8FEF4248BA0DF00B674AB /* Main.storyboard */,
 				2AF8FEF9248BA0E100B674AB /* LaunchScreen.storyboard */,
 				2AF8FEFC248BA0E100B674AB /* Info.plist */,
+				2AF8FF04248BA0E100B674AB /* WOOTTests */,
 			);
 			path = WOOT;
 			sourceTree = "<group>";
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AF8FEF3248BA0DF00B674AB /* ViewController.swift in Sources */,
+				2AF8FEF3248BA0DF00B674AB /* genraViewController.swift in Sources */,
+				2A1906B8249E1A6700E5574D /* timeViewController.swift in Sources */,
 				2AF8FEEF248BA0DF00B674AB /* AppDelegate.swift in Sources */,
+				2A1906AC2495D91A00E5574D /* oneMinuteArticalViewController.swift in Sources */,
 				2AF8FEF1248BA0DF00B674AB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
